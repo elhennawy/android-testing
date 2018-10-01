@@ -63,9 +63,16 @@ public class NotesPresenter implements NotesContract.UserActionsListener {
 //        });
     }
 
+    /**
+     * Add a new note
+     */
     @Override
     public void addNewNote() {
 //        mNotesView.showAddNote();
+
+
+         mNotesView.showAddNote();
+
     }
 
     @Override
